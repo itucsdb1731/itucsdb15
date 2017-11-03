@@ -23,7 +23,7 @@ dsn_pwd = "SUKFLLJHQIUQQJLE"
 
 try:
     conn_string = "host="+dsn_hostname+" port="+dsn_port+" dbname="+dsn_database+" user="+dsn_uid+" password="+dsn_pwd
-    print "Connecting to database\n	->%s" % (conn_string)
+    print("Connecting to database: " + conn_string)
     conn=psycopg2.connect(conn_string)
     print "Connected!\n"
 except:
