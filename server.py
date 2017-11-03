@@ -12,7 +12,7 @@ from flask import render_template
 app = Flask(__name__)
 
 
-dsn_database = "compose>"       
+dsn_database = "compose"       
 dsn_hostname = "sl-us-south-1-portal.6.dblayer.com"     
 dsn_port = "26746"                 
 dsn_uid = "admin"        
